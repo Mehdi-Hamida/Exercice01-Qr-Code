@@ -1,0 +1,47 @@
+body
+{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-body
+{
+    position: relative;
+    align-items: center;
+    background: #fff;
+    height: 490px;
+    width: 300px;
+    max-width: 308px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#card-body img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#card-texts
+{
+    text-align: center;
+}
+
+#card-texts h1
+{
+    color: hsl(218, 44%, 22%);
+}
+
+#card-texts p
+{
+    color: grey;
+    font-size: 0.9375rem;
+    max-width: 85%;
+    margin: 0 auto;
+}
